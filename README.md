@@ -1,5 +1,6 @@
 # docker-newman
-Automated build of Newman
+Automated build of Newman based on Alpine Linux
+The main benefit of this build is it's < 30Mb size!
 
 Automaited build details
 https://hub.docker.com/r/uadevnet/docker-newman
