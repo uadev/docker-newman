@@ -1,3 +1,3 @@
 FROM  mhart/alpine-node
 
-npm install -g newman
+RUN npm install -g newman
