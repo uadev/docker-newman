@@ -1,5 +1,5 @@
-FROM  mhart/alpine-node:7.4.0
+FROM  node:7-alpine
 
-RUN npm install -g newman@3.1.1
+RUN npm install -g newman
 
 CMD ["/usr/bin/newman"]
