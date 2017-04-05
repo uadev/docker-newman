@@ -1,4 +1,4 @@
-FROM  mhart/alpine-node
+FROM  node:7-alpine
 
 RUN npm install -g newman@2
 
